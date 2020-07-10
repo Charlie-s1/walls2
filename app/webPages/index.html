@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>home</title>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <h1>Walls</h1>
+
+    <h3>Sign Up</h3>
+    <form id="signUp" method="POST" action="/signUp">
+      <label for="upName">userName</label>
+      <input type="text" id="upName" name="name">
+      <label for="upPass">password</label>
+      <input type="password" id="upPass" name="pass">
+      <input id="upSub" type="button" name="button" value="submit">
+    </form>
+    <h3>Sign In</h3>
+    <form id="signIn" method="POST" action="/signIn">
+      <label for="name">userName</label>
+      <input type="text" id="inName" name ="name">
+      <label for="pass">password</label>
+      <input type="password" id="inPass" name="pass">
+      <input id="inSub" type="button" name="button" value="submit">
+    </form>
+
+
+  </body>
+</html>

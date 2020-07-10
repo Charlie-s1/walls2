@@ -1,0 +1,17 @@
+{
+  "name": "walls",
+  "version": "0.0.1",
+  "description": "Application to blog and upload",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app/server/server",
+    "createDB": "mysql -u root -p < app/server/createDB.sql"
+  },
+  "author": "charlie",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql2": "^1.6.4",
+    "querystring": "^0.2.0"
+  }
+}

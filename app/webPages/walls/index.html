@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Wall</title>
+    <link rel="stylesheet" href="wall.css">
+    <script type="text/javascript" src="wall.js"></script>
+
+    </script>
+  </head>
+  <body>
+    <main>
+      <form id="message" action="/messageUp" method="post">
+        <input id="title" type="text" name="title" placeholder="title">
+        <textarea id="content" name="content" placeholder="content"></textarea>
+        <input readonly id="author" name="author" type="text" name="user" >
+        <input type="button" name="button" value="submit" id="postMsg">
+      </form>
+      <div id="messages">
+        <button id="refresh">refresh</button>
+      </div>
+
+    </main>
+
+
+
+  </body>
+</html>
